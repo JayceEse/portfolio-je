@@ -1,0 +1,24 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    background-color: aqua;
+}
+
+.narbar__links_container {
+    display: flex;
+    
+}
+
+.navbar__links_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__links_content p {
+    text-decoration: none;
+    margin: 0 1rem;
+    cursor: pointer;
+}
