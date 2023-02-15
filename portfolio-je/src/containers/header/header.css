@@ -14,7 +14,7 @@
 }
 
 .header__content-container h1{
-    font-size: 60px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,31 @@
 
 .header__content-container p{
     line-height: 2em;
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .header__img-container{
-    margin: 4rem 0;
+    margin: 4rem 6rem;
+}
+
+.header__img-container img{
+    width: 50em;
+    height: auto;
+}
+
+@media screen and (max-width: 1550px) {
+    .header__img-container img{
+        width: 25em;
+        height: auto;
+    }
+
+    .header__content-container h1{
+        font-size: 60px;
+    }
+    
+    .header__content-container p{
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 1050px) {
