@@ -4,6 +4,7 @@
     justify-content: space-between;
 
     font-family: var(--font-family);
+    color: #fff;
 }
 
 .header__content-container{

@@ -5,10 +5,6 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #073ABB;
-}
-
 a {
     color: unset;
     text-decoration: none;
