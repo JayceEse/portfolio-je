@@ -91,3 +91,9 @@
         font-size: 1.2em;
     }
 }
+
+@media screen and (max-width: 400px){
+    .header__content-container h1{
+        font-size: 31px;
+    }
+}

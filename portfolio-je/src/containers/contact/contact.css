@@ -63,3 +63,10 @@
         margin: 2rem 2rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .contact___container h1{
+        padding: auto;
+        font-size: 37px;
+    }
+}
