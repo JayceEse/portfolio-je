@@ -76,6 +76,11 @@
         padding: 4rem 0;
     }
 
+    .header__img-container img{
+        width: 20em;
+        height: auto;
+    }
+
     .header__content-container h1{
         font-size: 40px;
     }
