@@ -1,0 +1,65 @@
+.contact {
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+/*contact title*/
+.contact___container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0;
+}
+
+.contact___container h1{
+    font-size: 100px;
+}
+
+/*social icons styles*/
+.contact__social_links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__social_links li{
+    font-size: 150px;
+    list-style-type: none;
+    margin: 2rem 4rem;
+}
+
+#gmail:hover {
+    color: yellowgreen;
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+}
+
+#github:hover {
+    color: black;
+}
+
+/*responsive styles*/
+@media screen and (max-width: 800px) {
+    .contact___container h1 {
+        font-size: 80px;
+    }
+
+    .contact__social_links li{
+        font-size: 100px;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact___container h1{
+        padding: auto;
+        font-size: 45px;
+    }
+
+    .contact__social_links li{
+        font-size: 60px;
+        margin: 2rem 2rem;
+    }
+}

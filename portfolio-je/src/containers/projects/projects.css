@@ -83,6 +83,7 @@
     color: #264de4;
 }
 
+/*responsive styles*/
 @media screen and (max-width: 1550px) {
     .projects h1 {
         font-size: 100px;

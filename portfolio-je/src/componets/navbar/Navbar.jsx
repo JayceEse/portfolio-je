@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import{RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import'./navbar.css';
 
+//menu componet to be used for normal and toggle menu
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
@@ -15,7 +16,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='navbar'>
+    <div className='navbar' id='home'>
       <div className='navbar__links'>
         <div className='navbar__links_logo'>
           <h1>Jayce Ese</h1>

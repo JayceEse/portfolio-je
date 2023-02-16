@@ -6,7 +6,7 @@
     font-family: var(--font-family);
     color: #fff;
 }
-
+/*title styles*/
 .header__content-container{
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@
     font-size: 3em;
 }
 
+/*front page img*/
 .header__img-container{
     margin: 4rem 6rem;
 }
@@ -36,6 +37,7 @@
     height: auto;
 }
 
+/*responsive setup*/
 @media screen and (max-width: 1550px) {
     .header__img-container img{
         width: 25em;

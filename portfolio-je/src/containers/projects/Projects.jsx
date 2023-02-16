@@ -15,8 +15,8 @@ const Projects = () => {
           <div className='projects__content_info'>
             <h3>GPT3 Modern Website</h3>
             <div className='projects__content_links'>
-              <a href=""><FontAwesomeIcon icon={faGithub} /> Github Link Here</a>
-              <a href=""><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
+              <a href="https://github.com/JayceEse/gpt3_je" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
+              <a href="https://jayceese.github.io/gpt3_je/" target="_blank"><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
             </div>
             <p>Built a React website to demonstrate my understanding to code a Figma design into a responsive website using React.</p>
             <ul>
@@ -31,8 +31,8 @@ const Projects = () => {
             <div className='projects__content_info'>
               <h3>Pokemon Stats API</h3>
               <div className='projects__content_links'>
-                <a href=""><FontAwesomeIcon icon={faGithub} /> Github Link Here</a>
-                <a href=""><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
+                <a href="https://github.com/JayceEse/pokemon-stats" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
+                <a href="https://jayceese.github.io/pokemon-stats/" target="_blank"><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
               </div>
               <p>Created Pokemon Stats to learn how API requests work and add other features to enhance the users experience.</p>
               <ul>
@@ -48,7 +48,7 @@ const Projects = () => {
             <div className='projects__content_info'>
               <h3>Personal Portfolio Website</h3>
               <div className='projects__content_links'>
-                <a href=""><FontAwesomeIcon icon={faGithub} /> Github Link Here</a>
+                <a href="https://github.com/JayceEse/portfolio-je" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
               </div>
               <p>Created a responsive portfolio website showcasing my web development projects and skills.</p>
               <ul>
