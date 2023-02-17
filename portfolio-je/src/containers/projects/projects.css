@@ -90,12 +90,12 @@
     }
     
     .projects img {
-        width: 400px;
+        width: 360px;
         height: auto;
     }
        
     .projects__content {
-        width: 400px;
+        width: 360px;
         height: auto;
         margin: 1rem;
     }
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 550px){
     .projects h1 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .projects img {
@@ -126,5 +126,10 @@
     .projects__content {
         width: 300px;
         height: auto;
+    }
+
+    .projects__content_info li{
+        margin: 0.3rem;
+        font-size: 20px;
     }
 }

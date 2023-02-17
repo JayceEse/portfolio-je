@@ -18,7 +18,7 @@ const Projects = () => {
               <a href="https://github.com/JayceEse/gpt3_je" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
               <a href="https://jayceese.github.io/gpt3_je/" target="_blank"><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
             </div>
-            <p>Built a React website to demonstrate my understanding to code a Figma design into a responsive website using React.</p>
+            <p>Learned to build a React website along with CSS3 and JavaScript to demonstrate my understanding to code a Figma design into a responsive website.</p>
             <ul>
               <li><FontAwesomeIcon icon={faReact} id="react"/></li>
               <li><FontAwesomeIcon icon={faJs} id="javascript"/></li>
@@ -34,7 +34,7 @@ const Projects = () => {
                 <a href="https://github.com/JayceEse/pokemon-stats" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
                 <a href="https://jayceese.github.io/pokemon-stats/" target="_blank"><FontAwesomeIcon icon={faGlobe} /> Live Link Here</a>
               </div>
-              <p>Created Pokemon Stats to learn how API requests work and add other features to enhance the users experience.</p>
+              <p>Created Pokemon Stats using React JS, CSS3, JavaScript & Pokemon API to learn how API requests work and how to display the data. As well as adding other features like a suggestion drop down menu in the search bar to enhance the user’s experience.</p>
               <ul>
                 <li><FontAwesomeIcon icon={faReact} id="react"/></li>
                 <li><FontAwesomeIcon icon={faJs} id="javascript"/></li>
@@ -50,7 +50,7 @@ const Projects = () => {
               <div className='projects__content_links'>
                 <a href="https://github.com/JayceEse/portfolio-je" target="_blank"><FontAwesomeIcon icon={faGithub} /> Code Here</a>
               </div>
-              <p>Created a responsive portfolio website showcasing my web development projects and skills.</p>
+              <p>Developed a responsive Personal Portfolio website using React JS, Vite JS, CSS3 and JavaScript to showcase my web development projects and skills. Deployed website to Netlify(Site Host) with my custom domain name.</p>
               <ul>
                 <li><FontAwesomeIcon icon={faReact} id="react"/></li>
                 <li><FontAwesomeIcon icon={faJs} id="javascript"/></li>

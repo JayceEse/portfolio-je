@@ -89,6 +89,10 @@
 }
 
 @media screen and (max-width: 550px){
+    .about__img_container {
+        padding: 0.5rem;
+    }
+    
     .about__img_container img{
         width: 230px;
         height: auto;

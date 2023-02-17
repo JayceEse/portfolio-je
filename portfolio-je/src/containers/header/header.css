@@ -96,4 +96,9 @@
     .header__content-container h1{
         font-size: 31px;
     }
+
+    .header__img-container img{
+        width: 300px;
+        height: auto;
+    }
 }
