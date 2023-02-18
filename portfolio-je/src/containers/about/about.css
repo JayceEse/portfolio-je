@@ -44,11 +44,20 @@
 }
 
 /*responsive styles*/
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1780px) {
     .about {
         flex-direction: column;
     }
+    
+    .about__img_container img{
+        width: 600px;
+        height: auto;
+        margin: auto;
 
+    }
+}
+
+@media screen and (max-width: 1550px) {
     .about__img_container img{
         width: 400px;
         height: auto;

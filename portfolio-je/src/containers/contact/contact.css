@@ -41,13 +41,24 @@
 }
 
 /*responsive styles*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .contact___container h1 {
         font-size: 80px;
     }
 
     .contact__social_links li{
         font-size: 100px;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact___container h1 {
+        font-size: 60px;
+    }
+
+    .contact__social_links li{
+        font-size: 80px;
         margin: 2rem 2rem;
     }
 }
