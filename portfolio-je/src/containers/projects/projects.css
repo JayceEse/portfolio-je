@@ -1,40 +1,65 @@
 .projects {
   font-family: var(--font-family);
+  margin: 4rem 25rem;
+  height: 140vh;
 }
 
 .projects h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 5rem;
-  font-size: 130px;
-  color: #fff;
-  text-shadow: 2px 2px black;
+  font-size: 45px;
+  color: #272341;
 }
 
 /*Styling projects cards*/
 .projects__container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects__content {
-  width: 37.5em;
-  height: auto;
-  background-color: black;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 2rem;
 }
 
-.projects img {
+.projects__img_wrapper img {
   display: flex;
   justify-content: center;
-  width: 600px;
+  width: 50rem;
   height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects__content_info {
-  padding: 2rem;
+  padding: 1rem 2rem;
+  width: 30rem;
+  height: auto;
+  color: #272341;
+  margin-right: 2rem;
+}
+
+.projects__links {
+  margin-top: 2rem;
+}
+
+.projects__links a {
+  color: #00cdac;
+  border: 2px solid #00cdac;
+  padding: 5px;
+  margin-right: 1rem;
+
+  background: linear-gradient(to left, #fff 50%, #00cdac 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.projects__links a:hover {
   color: #fff;
+  transition: all 0.5s ease;
+  background-position: left bottom;
 }
 
 .projects__content_info h3 {
@@ -44,123 +69,74 @@
   margin-bottom: 1rem;
 }
 
-.projects__content_links {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-  font-size: 20px;
+.hidden {
+  opacity: 0;
+  transition: all 1s;
 }
 
-/*Styling for programming icons */
-.projects__content_info p {
-  font-size: 20px;
-}
-
-.projects__content_info ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.projects__content_info li {
-  list-style-type: none;
-  margin: 1rem;
-  font-size: 30px;
-}
-
-/*Styling for programming icons */
-#react {
-  color: #61dbfb;
-}
-
-#javascript {
-  color: #f0db4f;
-}
-
-#css {
-  color: #264de4;
+.show {
+  opacity: 1;
 }
 
 /*responsive styles*/
-@media screen and (max-width: 2000px) {
-  .projects h1 {
-    font-size: 100px;
-  }
-
+@media screen and (max-width: 1325px) {
   .projects img {
-    width: 500px;
-    height: auto;
-  }
-
-  .projects__content {
-    width: 500px;
-    height: auto;
+    width: 35rem;
   }
 }
 
-@media screen and (max-width: 1680px) {
-  .projects h1 {
-    font-size: 100px;
+@media screen and (max-width: 1024px) {
+  .projects__content_info {
+    padding: 0 1rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
   }
 
-  .projects img {
-    width: 360px;
-    height: auto;
-  }
-
-  .projects__content {
-    width: 360px;
-    height: auto;
-    margin: 1rem;
-  }
-
-  .projects__content_info li {
+  .projects__content_info h3 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width: 1350px) {
-  .projects h1 {
-    font-size: 90px;
-  }
 
   .projects img {
-    width: 320px;
-    height: auto;
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .projects__content_info {
+    padding: 0 1rem;
+    width: 19rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    margin: 4rem 0;
   }
 
   .projects__content {
-    width: 320px;
-    height: auto;
-    margin: 1rem;
-  }
-}
-
-@media screen and (max-width: 1250px) {
-  .projects__container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    margin-bottom: 4rem;
   }
-}
 
-@media screen and (max-width: 550px) {
-  .projects h1 {
-    font-size: 70px;
+  .projects__content_info {
+    padding: 0 1rem;
+    width: 30rem;
+    margin-bottom: 2rem;
   }
 
   .projects img {
-    width: 300px;
-    height: auto;
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .projects__content_info {
+    width: 20rem;
   }
 
-  .projects__content {
-    width: 300px;
-    height: auto;
-  }
-
-  .projects__content_info li {
-    margin: 0.3rem;
-    font-size: 20px;
+  .projects img {
+    width: 19rem;
   }
 }
