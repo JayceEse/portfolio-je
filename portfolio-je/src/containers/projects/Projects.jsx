@@ -14,13 +14,24 @@ const Projects = () => {
 
   return (
     <div className="projects" id="projects">
-      <h1 data-aos="fade-left">PROJECTS</h1>
+      <h1 data-aos="fade-left" data-aos-delay="200">
+        PROJECTS
+      </h1>
       <div className="projects__container">
         <div className="projects__content">
           <div className="projects__img_wrapper">
-            <img data-aos="fade-left" src={GPT3} alt="gpt3 site screenshot" />
+            <img
+              data-aos="fade-left"
+              data-aos-delay="200"
+              src={GPT3}
+              alt="gpt3 site screenshot"
+            />
           </div>
-          <div className="projects__content_info" data-aos="fade-right">
+          <div
+            className="projects__content_info"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             <h3>GPT3 Modern Website</h3>
             <p>
               Learned to build a React website along with CSS3 and JavaScript to
@@ -41,11 +52,16 @@ const Projects = () => {
           <div className="projects__img_wrapper">
             <img
               data-aos="fade-left"
+              data-aos-delay="200"
               src={Pokemon}
               alt="pokemon site screenshot"
             />
           </div>
-          <div className="projects__content_info" data-aos="fade-right">
+          <div
+            className="projects__content_info"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             <h3>Pokemon Stats API</h3>
             <p>
               Created Pokemon Stats using ReactJS, CSS3, JavaScript & Pokemon
@@ -73,11 +89,16 @@ const Projects = () => {
           <div className="projects__img_wrapper">
             <img
               data-aos="fade-left"
+              data-aos-delay="200"
               src={Portfolio}
               alt="portfolio site screenshot"
             />
           </div>
-          <div className="projects__content_info" data-aos="fade-right">
+          <div
+            className="projects__content_info"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             <h3>Personal Portfolio Website</h3>
             <p>
               Developed a responsive Personal Portfolio website using ReactJS,

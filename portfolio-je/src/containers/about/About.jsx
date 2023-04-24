@@ -1,22 +1,46 @@
-import React from 'react'
-import './about.css'
-import aboutPhoto from '../../assets/photoOfJayce.jpeg'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./about.css";
+import aboutPhoto from "../../assets/photoOfJayce.png";
 
 const About = () => {
-  return (
-    <div className='about section__padding' id='about'>
-    <div className='about__img_container'>
-      <img src={aboutPhoto} alt="Photo of Jayce" />
-    </div>
-    <div className='about__content_container'>
-      <h1>About Me</h1>
-      <p>Hello there! My name is Jayce Ese and I am a self-taught Front-End Developer as well as a full-time stay-at-home dad to my wonderful two-year-old daughter. Although I may joke that she's sometimes a "gremlin" lol.</p>
-      <p>Over the last couple years, I've dedicated myself to mastering the art of web development, with a particular focus on HTML5, CSS3, JavaScript, and React. Through personal projects and online courses, I've built a strong foundation of knowledge that I'm excited to apply in a Front-End Developer role.</p>
-      <p>Prior to my foray into web development, I gained valuable experience in communication and collaboration skills through various customer service and sales roles.</p>
-      <p>When I'm not tinkering with code or spending time with my family, you can find me enjoying my favorite sports, playing video games, or indulging in my love for anime. I'm passionate about learning, and I believe that every experience has something to teach us.</p>
-    </div>
-    </div>
-  )
-}
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
-export default About
+  return (
+    <div className="about" id="about">
+      <div className="about__wrapper">
+        <img
+          data-aos="fade-right"
+          data-aos-delay="200"
+          src={aboutPhoto}
+          alt="Jayce at rugby world cup Japan"
+          width="768"
+          height="1024"
+        />
+        <div
+          data-aos="fade-left"
+          data-aos-delay="200"
+          className="about__content_container"
+        >
+          <h1>About Me</h1>
+          <p>
+            As an aspiring Front-End Developer, I am passionate about creating
+            visually appealing and user-friendly websites that deliver
+            exceptional user experiences. I possess a strong foundation in HTML5
+            and CSS3 and am continuously enhancing my skills in JavaScript and
+            ReactJS to stay ahead of the curve. Drawing from years of experience
+            in retail, I have honed my communication and collaboration skills,
+            which I believe are essential in delivering successful projects. My
+            self-motivation, strong work ethic, and eagerness to learn make me a
+            valuable asset to any team.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

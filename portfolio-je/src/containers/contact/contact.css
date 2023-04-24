@@ -1,88 +1,102 @@
 .contact {
-    font-family: var(--font-family);
-    color: #fff;
+  font-family: var(--font-family);
+  color: #272341;
+  height: 80vh;
+
+  display: flex;
+  justify-content: center;
 }
 
 /*contact title*/
 .contact___container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact___container h1{
-    font-size: 100px;
+.contact___container h1 {
+  font-size: 100px;
+}
+
+.contact__social_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__social_links h3 {
+  font-family: var(--font-family);
+  color: #272341;
 }
 
 /*social icons styles*/
-.contact__social_links ul{
-    display: flex;
-    flex-direction: row;
+.contact__social_links ul {
+  display: flex;
+  flex-direction: row;
 }
 
-.contact__social_links li{
-    font-size: 150px;
-    list-style-type: none;
-    margin: 2rem 4rem;
+.contact__social_links li {
+  font-size: 150px;
+  list-style-type: none;
+  margin: 2rem 4rem;
 }
 
 #gmail:hover {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 #linkedin:hover {
-    color: #0e76a8;
+  color: #0e76a8;
 }
 
 #github:hover {
-    color: black;
+  color: black;
 }
 
 /*responsive styles*/
 @media screen and (max-width: 900px) {
-    .contact___container h1 {
-        font-size: 80px;
-    }
+  .contact___container h1 {
+    font-size: 80px;
+  }
 
-    .contact__social_links li{
-        font-size: 100px;
-        margin: 2rem 2rem;
-    }
+  .contact__social_links li {
+    font-size: 100px;
+    margin: 2rem 2rem;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .contact___container h1 {
-        font-size: 60px;
-    }
+  .contact___container h1 {
+    font-size: 60px;
+  }
 
-    .contact__social_links li{
-        font-size: 80px;
-        margin: 2rem 2rem;
-    }
+  .contact__social_links li {
+    font-size: 80px;
+    margin: 2rem 2rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .contact___container h1{
-        padding: auto;
-        font-size: 45px;
-    }
+  .contact___container h1 {
+    padding: auto;
+    font-size: 45px;
+  }
 
-    .contact__social_links li{
-        font-size: 60px;
-        margin: 2rem 2rem;
-    }
+  .contact__social_links li {
+    font-size: 60px;
+    margin: 2rem 2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .contact___container h1{
-        padding: auto;
-        font-size: 37px;
-    }
+  .contact___container h1 {
+    padding: auto;
+    font-size: 37px;
+  }
 
-    .contact__social_links li{
-        font-size: 50px;
-        margin: 1rem 1rem;
-    }
+  .contact__social_links li {
+    font-size: 50px;
+    margin: 1rem 1rem;
+  }
 }

@@ -1,7 +1,10 @@
 .projects {
   font-family: var(--font-family);
   margin: 4rem 25rem;
-  height: 140vh;
+  height: 100%;
+  width: auto;
+  margin-bottom: 10rem;
+  padding: 4rem;
 }
 
 .projects h1 {
@@ -17,6 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .projects__content {
@@ -28,7 +32,7 @@
 .projects__img_wrapper img {
   display: flex;
   justify-content: center;
-  width: 50rem;
+  max-width: 50rem;
   height: auto;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -124,6 +128,7 @@
     padding: 0 1rem;
     width: 30rem;
     margin-bottom: 2rem;
+    margin-right: 0;
   }
 
   .projects img {
