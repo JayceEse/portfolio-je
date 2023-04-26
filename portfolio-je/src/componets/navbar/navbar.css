@@ -56,7 +56,6 @@
   margin-left: 1rem;
 
   display: none;
-  position: relative;
 }
 
 .navbar-menu svg {
@@ -70,7 +69,7 @@
   align-items: center;
   flex-direction: column;
   text-align: end;
-  background-color: #00cdac;
+  background: #00cdac;
   padding: 2rem;
   position: absolute;
   top: 2px;
@@ -97,8 +96,8 @@
   }
 
   .navbar-menu {
-    display: inline-block;
-    background-color: #00cdac;
+    display: block;
+    background: #00cdac;
     border-radius: 2px;
   }
 }

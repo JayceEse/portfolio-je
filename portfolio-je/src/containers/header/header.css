@@ -26,14 +26,6 @@
   background-position: right bottom;
   border: 2px solid #00cdac;
   margin-top: 1rem;
-
-  /*fadein animation*/
-  opacity: 0;
-  animation-name: fadein;
-  animation-delay: 1s;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .header__content-container button:hover {
@@ -45,24 +37,6 @@
 .header__content-container h1 {
   color: #272341;
   font-size: 80px;
-
-  /*fadein animation*/
-  opacity: 0;
-  animation-name: fadein;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-/*fadein animation*/
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 /*responsive setup*/
