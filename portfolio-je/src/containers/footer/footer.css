@@ -5,6 +5,7 @@
   background-color: black;
   font-family: var(--font-family);
   min-height: 100px;
+  min-width: 100vw;
 }
 
 .footer__container {
