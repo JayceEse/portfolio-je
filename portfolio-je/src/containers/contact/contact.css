@@ -1,7 +1,7 @@
 .contact {
   font-family: var(--font-family);
   color: #272341;
-  height: 80vh;
+  min-height: 100vh;
 
   display: flex;
   justify-content: center;

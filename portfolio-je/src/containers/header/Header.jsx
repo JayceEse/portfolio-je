@@ -3,7 +3,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="header section__padding">
+    <div className="header">
       <div className="header__content-container">
         <h1>
           Hi, my name is <span className="custom__text_color"> Jayce Ese</span>

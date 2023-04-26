@@ -36,9 +36,7 @@
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-  background: linear-gradient(to left, #fff 50%, #00cdac 50%);
+  background: linear-gradient(to left, #fff 51%, #00cdac 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   padding: 4px 5px;
